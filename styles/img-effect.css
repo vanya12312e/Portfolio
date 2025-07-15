@@ -1,0 +1,10 @@
+.img-effect {
+    width: 100%;
+    height: 100%;
+    filter: grayscale(200%) brightness(20%);
+    transition: filter 1s ease;
+}
+
+.img-effect:hover {
+    filter: none;
+}
