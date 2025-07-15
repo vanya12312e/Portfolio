@@ -1,0 +1,17 @@
+.photo {
+    display: flex;
+    justify-content: end;
+    align-items: normal;
+    padding-left: 300px;
+    padding-top: 50px;
+}
+
+.about-me {
+    max-width: 1600px;
+    max-height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 300px;
+    padding-top: 100px;
+    
+}
