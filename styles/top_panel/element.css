@@ -1,0 +1,33 @@
+.element {
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-right: 100px;
+  padding-left: 30px;
+}
+
+.element-text {
+    text-decoration: none;
+    font-size: 20px;
+    color: #9C9C9C;
+    font-family: Roboto;
+    position: relative;
+    bottom: 10px;
+    left: 100px;
+}
+
+.element-text::after {
+    content: "";
+    position: absolute;
+    bottom: -3px;              
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #9C9C9C;
+    transition: width 0.2s ease-in-out;
+}
+
+.element-text:hover::after {
+    width: 100%;
+}
+
+
