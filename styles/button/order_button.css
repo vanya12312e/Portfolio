@@ -7,18 +7,36 @@
 .order-button {
     width: 307.89px;
     height: 63px;
-    font-family: IBM Plex Mono;
+    font-family: "IBM Plex Mono", monospace;
     font-size: 18px;
     font-weight: 500;
     color: white;
     background-color: #3F8E00;
+    border: none;
     border-color: #62BA1B;    
-    box-shadow: 20px;
-    text-decoration: none;
     box-shadow: 0 0 12px #62BA1B;
-    transition: box-shadow 0.3s ease;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 .order-button:hover {
-  box-shadow: 0 0 20px #62BA1B
+    box-shadow: 0 0 20px #62BA1B;
+    transform: translateY(-5px);
+}
+
+
+button {
+  outline: none;         /* Убирает контур */
+  box-shadow: none;      /* Убирает тени */
+  border: none;          /* Если нужно убрать рамку */
+  background: none;      /* Если нужно убрать фон */
+  user-select: none;     /* Отключает выделение текста */
+}
+
+button:focus,
+button:active {
+  outline: none;
+  box-shadow: none;
 }
