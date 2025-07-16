@@ -3,7 +3,11 @@
     height: 100%;
     filter: grayscale(200%) brightness(20%);
     transition: filter 1s ease;
-}
+   outline: solid;
+   outline-color: #fff;
+   outline-width: 1.7px;
+    border-radius: 5px;
+}   
 
 .img-effect:hover {
     filter: none;
